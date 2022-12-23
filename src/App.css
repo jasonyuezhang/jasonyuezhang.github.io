@@ -1,5 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +44,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }

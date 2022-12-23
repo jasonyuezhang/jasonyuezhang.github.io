@@ -1,0 +1,52 @@
+.homeContainer {
+  background: white;
+  background: radial-gradient(circle, white 50%, rgb(236, 240, 224) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-height: 60em;
+  min-height: 32em;
+  position: relative;
+}
+
+.home {
+  margin: 10em 0;
+}
+
+.home > * {
+  cursor: default;
+  margin: auto;
+}
+
+.home .name {
+  font: bold 5em 'Noto Serif', serif;
+  background-image: linear-gradient(55deg, rgb(75, 61, 62) 35%, rgb(223, 125, 190) 45%, rgb(45, 65, 120) 55%, rgb(3, 62, 124) 65%, rgb(131, 222, 217) 77%, rgb(75, 61, 62) 85%, rgb(171, 49, 31) 95%);
+  background-size: 200% .08em;
+  background-position: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.2em;
+  transition: background-size .3s cubic-bezier(0.54, 0.09, 1, 1);
+}
+
+.home .name:hover {
+  background-size: 100% 100%;
+  background-position: 100% 100%;
+}
+
+.home .name .firstName:after {
+  content: " ";
+}
+
+.home .title {
+  font: bold 1.5em 'Oxygen', sans-serif;
+  color: black;
+  margin-bottom: 13vh;
+}
+
+.home .shortIntro {
+  font: 'Open Sans', sans-serif;
+  max-width: 35em;
+  width: 85%;
+}

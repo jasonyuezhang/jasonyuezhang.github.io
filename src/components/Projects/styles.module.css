@@ -1,0 +1,90 @@
+.projectsContainer {
+  background: rgb(20, 20, 50);
+  background-image: radial-gradient(circle, rgb(20, 20, 50) 50%, rgb(10, 10, 20) 100%);
+  background-size: 200% 300%;
+  height: 100vh;
+  max-height: 60em;
+  min-height: 32em;
+  position: relative;
+}
+
+.projectsContainer .title {
+  color: white;
+  display: inline-block;
+  font: bold 2em 'Oxygen', sans-serif;
+  margin: 10vh 0 5vh 0;
+}
+
+.projects {
+  display: flex;
+  height: 75vh;
+  justify-content: space-evenly;
+  margin: auto;
+  overflow-y: scroll;
+  width: 90vw;
+}
+
+.projects .col {
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: flex-start;
+  margin: 1.3vw;
+}
+
+.projects .col .project {
+  margin-bottom: 2.6vw;
+  position: relative;
+  shadow: 0px 0px 20px rgb(10, 10, 20);
+}
+
+.projects .col .project img {
+  width: 100%;
+}
+
+.project:hover .detailsContainer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.project .detailsContainer {
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0%) 100%);
+  bottom: 0;
+  opacity: 0;
+  height: 50%;
+  margin: 0 -.5px;
+  position: absolute;
+  float: left;
+  transition: visibility 0.3s ease, opacity 0.3s ease;
+  visibility: hidden;
+  width: calc(100% + 1px);
+}
+
+.project .details {
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  padding: 12% 10px 0 10px;
+}
+
+
+.project .details span {
+  text-align: left;
+  margin: 3px 10px;
+  text-shadow: -2px 0px 15px black;
+}
+
+.project .details .title {
+  font: bold 1em 'Oxygen', sans-serif;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.project .details .shortDesc {
+  font: 0.55em 'Oxygen', sans-serif;
+  color: rgb(215, 215, 215);
+}

@@ -1,0 +1,29 @@
+.followMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 50em;
+  width: 85%;
+}
+
+.followMe .link {
+  color: black;
+  cursor: pointer;
+  margin-left: 1.5em;
+  text-decoration: none;
+  transition: .2s ease-in-out;
+}
+
+.followMe .link:hover {
+  color: rgb(171, 49, 31);
+}
+
+.followMe .link .icon {
+  font-size: .7em;
+  margin-right: 4px;
+}
+
+.followMe .link .iconAlt {
+  font: .7em 'Oxygen', sans-serif;
+}
