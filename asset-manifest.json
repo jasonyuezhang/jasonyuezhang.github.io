@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.a387dd72.css",
-    "main.js": "/static/js/main.c10a4d27.js",
+    "main.js": "/static/js/main.4cce95a0.js",
     "static/js/787.f587e8d5.chunk.js": "/static/js/787.f587e8d5.chunk.js",
-    "static/media/musicale.png": "/static/media/musicale.351f5222b93b67a5d2f1.png",
+    "static/media/musicale.png": "/static/media/musicale.7e7f30bd6e37de6f9b6e.png",
     "index.html": "/index.html",
     "main.a387dd72.css.map": "/static/css/main.a387dd72.css.map",
-    "main.c10a4d27.js.map": "/static/js/main.c10a4d27.js.map",
+    "main.4cce95a0.js.map": "/static/js/main.4cce95a0.js.map",
     "787.f587e8d5.chunk.js.map": "/static/js/787.f587e8d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a387dd72.css",
-    "static/js/main.c10a4d27.js"
+    "static/js/main.4cce95a0.js"
   ]
 }
